@@ -16,10 +16,5 @@ pipeline {
                 sh 'dotnet build'
             }
         }
-        stage('Run') {
-            steps {
-                sh 'dotnet run'
-            }
-        }
     }
 }
